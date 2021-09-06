@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bolder;
+}
+html,body {
+    height: 100%;
+}
+#container {
+    height: 100%;
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+}
+header {
+    height: 10%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+h1 {
+    width: 980px;
+    font-size: 40px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+#div1 {
+    width: 980px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: white;
+}
+h2 {
+    font-size: 40px;
+    height: 10%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: green;
+}
+#div2 {
+    height: 50%;
+    width: 90%;
+    align-self: center;
+    overflow: auto;
+    border: 2px solid black;
+}
+table {
+    width: 100%;
+    border: 2px solid black;
+    font-size: 25px;
+}
+th {
+    position: sticky;
+    top: 0;
+    background-color: green;
+    color: white;
+    border: 2px solid black;
+}
+td {
+    text-align: center;
+    border: 2px solid black;
+}
+input {
+    font-size: 18px;
+    width: 70%;
+    padding: 1.5%;
+}
+#print {
+    align-self: center;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+footer {
+    height: 10%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+p {
+    width: 980px;
+    font-size: 40px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 1399px) {
+    h1 {
+        width: 900px;
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    #div1 {
+        width: 900px;
+    }
+    p {
+        width: 900px;
+        font-size: 35px;
+    }
+    table {
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    h1 {
+        width: 793.6px;
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    input {
+        font-size: 16px;
+        width: 80%;
+    }
+    #div1 {
+        width: 793.6px;
+    }
+    p {
+        width: 793.6px;
+        font-size: 30px;
+    }
+    table {
+        font-size: 19px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    h1 {
+        width: 652.8px;
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    #div1 {
+        width: 652.8px;
+    }
+    p {
+        width: 652.8px;
+        font-size: 25px;
+    }
+    table {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    h1 {
+        width: 518.4px;
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    #div1 {
+        width: 518.4px;
+    }
+    input {
+        font-size: 14px;
+        width: 90%;
+    }
+    p {
+        width: 518.4px;
+        font-size: 20px;
+    }
+    table {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    h1 {
+        width: 304px;
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    #div1 {
+        width: 304px;
+    }
+    p {
+        width: 304px;
+        font-size: 15px;
+    }
+    table {
+        font-size: 10px;
+    }
+}

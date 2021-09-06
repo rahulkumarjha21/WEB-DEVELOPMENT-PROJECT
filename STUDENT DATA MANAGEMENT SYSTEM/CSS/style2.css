@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bolder;
+}
+html,body {
+    height: 100%;
+}
+#container {
+    height: 100%;
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+}
+header {
+    height: 10%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+h1 {
+    width: 980px;
+    font-size: 40px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+#div1 {
+    width: 980px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: white;
+}
+h2 {
+    font-size: 40px;
+    height: 10%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: green;
+}
+a {
+    align-self: center;
+    width: 50%;
+    padding: 1%;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+form {
+    height: 75%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+input {
+    font-size: 18px;
+    width: 70%;
+    padding: 1.5%;
+}
+#button {
+    width: 35%;
+    background-color: green;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding: 1%;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+}
+#link1 {
+    color: green;
+    font-size: 20px;
+}
+#link2 {
+    width: 35%;
+    padding: 1%;
+    text-align: center;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+footer {
+    height: 10%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+p {
+    width: 980px;
+    font-size: 40px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 1399px) {
+    h1 {
+        width: 900px;
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    #div1 {
+        width: 900px;
+    }
+    p {
+        width: 900px;
+        font-size: 35px;
+    }
+    a {
+        font-size: 19px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    h1 {
+        width: 793.6px;
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    input {
+        font-size: 16px;
+        width: 80%;
+    }
+    #div1 {
+        width: 793.6px;
+    }
+    #button {
+        width: 40%;
+        font-size: 25px;
+    }
+    #link1 {
+        font-size: 18px;
+    }
+    #link2 {
+        width: 40%;
+        font-size: 25px;
+    }
+    p {
+        width: 793.6px;
+        font-size: 30px;
+    }
+    a {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    h1 {
+        width: 652.8px;
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    #div1 {
+        width: 652.8px;
+    }
+    p {
+        width: 652.8px;
+        font-size: 25px;
+    }
+    a {
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    h1 {
+        width: 518.4px;
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    #div1 {
+        width: 518.4px;
+    }
+    input {
+        font-size: 14px;
+        width: 90%;
+    }
+    #button {
+        width: 45%;
+        font-size: 20px;
+    }
+    #link1 {
+        font-size: 16px;
+    }
+    #link2 {
+        width: 45%;
+        font-size: 20px;
+    }
+    p {
+        width: 518.4px;
+        font-size: 20px;
+    }
+    a {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    h1 {
+        width: 304px;
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    #div1 {
+        width: 304px;
+    }
+    p {
+        width: 304px;
+        font-size: 15px;
+    }
+    a {
+        font-size: 15px;
+    }
+}

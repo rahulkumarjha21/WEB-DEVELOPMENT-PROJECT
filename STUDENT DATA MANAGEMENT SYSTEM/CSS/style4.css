@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bolder;
+}
+html,body {
+    height: 100%;
+}
+#container {
+    height: 100%;
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+}
+header {
+    height: 10%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+h1 {
+    width: 980px;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+main {
+    height: 80%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+#div1 {
+    width: 980px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h2 {
+    width: 100%;
+    height: 10%;
+    background-color: green;
+    color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+form {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#div2 {
+    padding: 0.5%;
+    width: 90%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+input {
+    font-size: 15px;
+    padding: 0.5%;
+    width: 90%;
+}
+select {
+    font-size: 15px;
+    padding: 0.5%;
+    width: 90%;
+}
+#profilephoto {
+    padding: 1%;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+}
+#label1 {
+    font-size: 15px;
+    cursor: pointer;
+    padding: 1%;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+#button {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+footer {
+    height: 10%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+p {
+    width: 980px;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+@media only screen and (max-width: 1399px) {
+    h1 {
+        width: 900px;
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    #div1 {
+        width: 900px;
+    }
+    p {
+        width: 900px;
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    h1 {
+        width: 793.6px;
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    #div1 {
+        width: 793.6px;
+    }
+    p {
+        width: 793.6px;
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    h1 {
+        width: 652.8px;
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    #div1 {
+        width: 652.8px;
+    }
+    p {
+        width: 652.8px;
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    h1 {
+        width: 518.4px;
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    #div1 {
+        width: 518.4px;
+    }
+    p {
+        width: 518.4px;
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    h1 {
+        width: 304px;
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    #div1 {
+        width: 304px;
+    }
+    p {
+        width: 304px;
+        font-size: 15px;
+    }
+}
